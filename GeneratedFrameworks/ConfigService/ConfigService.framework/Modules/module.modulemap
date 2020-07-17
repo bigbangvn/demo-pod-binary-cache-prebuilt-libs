@@ -1,0 +1,11 @@
+framework module ConfigService {
+  umbrella header "ConfigService-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ConfigService.Swift {
+    header "ConfigService-Swift.h"
+    requires objc
+}
