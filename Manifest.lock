@@ -19,6 +19,10 @@ PODS:
     - CocoaLumberjack/Core (= 3.6.0)
   - CocoaLumberjack/Core (3.6.0)
   - ConfigSDK (0.0.1):
+    - ConfigSDK/RemoteConfig (= 0.0.1)
+    - ProtocolBuffers-Swift
+    - SQLite.swift
+  - ConfigSDK/RemoteConfig (0.0.1):
     - ProtocolBuffers-Swift
     - SQLite.swift
   - ConfigService (0.0.1):
@@ -50,6 +54,7 @@ DEPENDENCIES:
   - Alamofire
   - CocoaLumberjack
   - ConfigSDK (from `DevPods/ConfigSDK`)
+  - ConfigSDK/RemoteConfig (from `DevPods/ConfigSDK`)
   - ConfigService (from `DevPods/ConfigService`)
   - Kingfisher
   - Masonry
@@ -97,7 +102,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
-  ConfigSDK: adac49ecc5094210b806c74c3fb1b1e8cb0c289f
+  ConfigSDK: fd3ad4bd1a1f9eddfdbb6a17fb1f2ebd5e48f70e
   ConfigService: cae3fbae5b4bda148f481de790c4da1823443178
   Kingfisher: 4569606189149e19c7d9439f47e885d0679b7a90
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -112,6 +117,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: b86ca1c452b2189833d7e604990ee3a3a43b31df
+PODFILE CHECKSUM: 80b4dc03f01774633455447a6786bdb79aec59ca
 
 COCOAPODS: 1.8.4
